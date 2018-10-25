@@ -54,3 +54,24 @@ text-decoration: none;
 background-color: #111;
 }
 
+#image{
+	grid-column: 1;
+	grid-row: 2;
+}
+
+
+#aboutme{
+	grid-column: 2;
+	grid-row: 2;
+	padding-right: 250px
+}
+
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 20px;
+	grid-auto-rows: auto auto;
+	grid-template-rows: auto auto;
+	padding-left: 125px; 
+}
