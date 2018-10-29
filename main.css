@@ -67,7 +67,7 @@ background-color: #111;
 }
 
 }
-.grid-container{
+#grid-container{
 	display: grid;
 	grid-template-columns: auto auto;
 	grid-gap: 20px;
